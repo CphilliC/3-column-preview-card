@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20% 7%;
+    margin: 0 auto;
+    font-family: 'Barlow Condensed';
+    color: #fafafa;
+}
+
+.page-container {
+    border-radius: .5em;
+    overflow: hidden;
+}
+
+img {
+    width: 30%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-right: 10%;
+    font-size: 2.55em;
+    letter-spacing: -1.5px;
+}
+
+p {
+    
+padding-right: 18px;
+    
+padding-bottom: 10px;
+    
+text-align: left;
+    
+font-size: 20px;
+    
+color: #fafafac2;
+    
+margin-top: 0;
+    
+width: 100%;
+}
+
+
+.sedan-container,
+.suv-container,
+.luxury-container {
+    padding: 3em;
+}
+
+.sedan-container {
+    background: #df872c;
+    display: flex;
+    flex-direction: column;
+}
+
+.suv-container {
+    background: rgb(2, 110, 110);
+    
+    
+}
+
+.luxury-container {
+    background: #064c46;
+}
+
+button {
+    padding: 5%;
+    border-radius: 1.5em;
+    border: none;
+    width: 70%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#sedan-button {
+    color: #df872c;
+}
+
+#suv-button {
+    color: rgb(2, 110, 110); 
+}
+
+#luxury-button {
+    color: #064c46;
+}
+
+@media (min-width: 768px) {
+
+    .page-container {
+        display: flex; 
+    }
+
+    p {
+        margin-bottom: 32%;
+    }
+}
